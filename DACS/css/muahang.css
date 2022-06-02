@@ -1,0 +1,61 @@
+/*------cart-------*/
+.cart {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.cart p {
+    margin-bottom: 20px;
+}
+.cart table {
+    width: 100%;
+}
+.cart table thead tr th:first-child {
+    text-align: left;
+}
+.cart table tr td {
+    border-bottom: 1px solid black;
+    padding: 12px 0;
+}
+.cart table thead tr th:last-child {
+    text-align: right;
+}
+.cart table tbody tr td:last-child {
+    text-align: right;
+}
+.cart button {
+    margin-top: 12px;
+    height: 30px;
+    padding: 0 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: tomato;
+}
+.cart {
+    position: fixed;
+    height: 55vh;
+    width: 400px;
+    right: 0;
+    top: 0;
+    background-color: yellow;
+    padding: 12px 20px;
+    overflow-y: scroll;
+    right: -100%;
+    transition: all 0.3s ease;
+}
+.cart i {
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: -350px;
+    font-size: large;
+}
+.cart-icon {
+ text-align: right;
+ color: rgb(229, 255, 0);
+}
+.cart-icon i {
+    cursor: pointer;
+    font-size: 20px;
+}

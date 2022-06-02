@@ -1,0 +1,161 @@
+body {
+	background: url("../images/DACS/anhnenlogin.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-size: 16px;
+	font-weight: 300;
+	margin: 0;
+	color: rgb(0, 0, 0);
+}
+
+.login-box {
+	background-color: white;
+	max-width: 500px;
+	margin: 0 auto;
+	position: relative;
+	top: 70px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+	text-align: center;
+}
+.login-box h2{
+    background-color: rgb(179, 159, 240);
+	text-transform: uppercase;
+	color: rgb(11, 7, 7);
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 1.4em;
+	line-height: 2.8em;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.container .jumbotron,
+.container-fluid .jumbotron {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row:before,
+.row:after,
+
+.col-sm-4, .col-sm-6, .col-sm-8 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.form-group:before,
+.form-group:after,
+
+h4,
+.h4 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h4,
+.h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4,
+.h4 {
+  font-size: 18px;
+}
+
+.form-control {
+    display: -moz-inline-stack;
+    width: 70%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: rgb(227, 223, 223);
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+         -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #999;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #999;
+}
+
+.form-control::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  background-color: #eee;
+  opacity: 1;
+}
+
+.form-control[disabled],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+}
+
+textarea.form-control {
+  height: auto;
+}

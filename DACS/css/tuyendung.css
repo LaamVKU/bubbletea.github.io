@@ -1,0 +1,597 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.7vw;
+
+}
+
+a{
+    text-decoration: none;/*bỏ gạch chân*/
+}
+/* body {
+	background: url("../images/DACS/anhnenlogin.jpg") no-repeat center center fixed;
+    background-size: cover;
+	font-size: 16px;
+	font-weight: 300;
+	margin: 0;
+	color: #666;
+} */
+/* .anhchu1{
+    height:30px;
+    float: left;
+} */
+
+.boxcenter {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+.mb{
+    margin-bottom:20px;
+}
+.mb10{
+    margin-bottom:10px ;
+}
+.mr{
+    margin-right:2%;
+}
+
+.demo{
+    background-color:antiquewhite;
+    min-height: 100px;
+}
+
+.menu ul li:nth-child(4) a img{
+    height: 15px;
+}
+
+.menu ul li a {
+    font-size: 20px;
+}
+.header{
+    background-color:rgb(34, 238, 197);
+    border: 1px #090 solid;
+    color: rgb(97, 97, 146);
+    border-radius: 5px;
+}
+.footer{
+    background-color:rgb(67, 70, 74);
+    border: 1px #090 solid;
+    font-size: 0.8vw;
+    color: rgb(128, 128, 191);
+    border-radius: 5px;
+    padding: 20px;
+}
+.header h1{
+    margin: 20px;
+    font-size: 2vw;
+    text-align: center;
+}
+.menu{
+    background-color: rgb(2, 2, 2);
+    color:#CCC;
+    border-radius: 5px;
+}
+.boxtrai{
+    float:left;
+    width: 74%;
+}
+.boxphai{
+    float:left;
+    width: 24%;
+}
+.boxtitle{
+    color:#333;
+    padding:10px;
+    background-color: mediumaquamarine;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px#CCC solid;
+}
+.boxcontent{
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+    padding: 20px;
+}
+.boxcontent2{
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid; 
+    background-color:#EEE ;
+}
+.boxfooter{
+    padding:10px;
+    background-color: #EEE;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+}
+.banner{
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    height: 300px;
+}
+.boxsp{
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border: 1px #EEE solid;
+    color:#f00;
+
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+/*....cart*.......*/
+.cart {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.cart p {
+    margin-bottom: 20px;
+}
+.cart table {
+    width: 100%;
+}
+.cart table thead tr th:first-child {
+    text-align: left;
+}
+.cart table tr td {
+    border-bottom: 1px solid black;
+    padding: 12px 0;
+}
+.cart table thead tr th:last-child {
+    text-align: right;
+}
+.cart table tbody tr td:last-child {
+    text-align: right;
+}
+.cart button {
+    margin-top: 12px;
+    height: 30px;
+    padding: 0 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: tomato;
+}
+.cart {
+    position: fixed;
+    height: 50vh;
+    width: 400px;
+    right: 0;
+    top: 0;
+    background-color: yellow;
+    padding: 12px 20px;
+    overflow-y: scroll;
+    right: -100%;
+    transition: all 0.3s ease;
+}
+.cart i {
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: -350px;
+    font-size: large;
+}
+.cart-icon {
+ text-align: right;
+}
+.cart-icon i {
+    cursor: pointer;
+    font-size: 20px;
+}
+    
+
+.boxsp .img{
+    min-height: 220px;
+    text-align: center;
+}
+.img img{
+    height: 220px;
+    width: 99%;
+}
+.menu ul{
+    padding: 0px 10px;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+}
+.menu ul li a{
+    color:#CCC;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    color: white;
+    font-size: 0.8vw;
+}
+/* box tai khoan*/
+.formtaikhoan{
+    line-height: 15px;
+}
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="password"],
+.frmcontent input[type="text"]{
+    width:100% ;
+    border: 1px #CCC solid;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+.formtaikhoan input[type="text"]{
+    border-radius: 5px;
+}
+.formtaikhoan input[type="submit"],
+.frmcontent input[type="submit"],
+.frmcontent input[type="reset"],
+.frmcontent input[type="button"] {
+    border-radius: 5px;
+    padding:5px 10px;
+    background-color: white;
+    border:1px #CCC solid ;
+}
+.formtaikhoan input[type="submit"]:hover,
+.frmcontent input[type="submit"]:hover,
+.frmcontent input[type="reset"]:hover,
+.frmcontent input[type="button"]:hover {
+    background-color: #CCC;
+}
+.formtaikhoan li a{
+    color: teal;
+    text-decoration: none;
+}
+.formtaikhoan li a:hover{
+    color: #060;
+    text-decoration: underline;
+}
+/* menu dọc*/
+.menudoc ul{
+    margin: 0;
+    padding:0 ;
+    list-style-type: none;
+}
+.menudoc ul li{
+    padding: 10px 20px;
+    background-color: #FFF;
+    border-bottom:1px #CCC solid ;
+}
+.menudoc ul li a{
+    color:#666;
+    text-decoration: none;
+}
+.menudoc ul li :hover{
+    background-color: #CCC;
+}
+.searbox input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #FFF;
+    border: 1px #CCC solid;
+    border-radius: 5px;
+}
+.top10 img{
+    width:10% ;
+    height: 20px;
+    float: left;
+    margin-right:10px ;
+    border-radius: 5px;
+    border:1px #CCC solid;
+}
+.top10 a{
+    color:#666;
+    text-decoration: none;
+}
+.top10 a:hover{
+    color:#000;
+    text-decoration: underline;
+}
+/*---Css Nút qua lại---*/
+.button-left{
+    left:21.5%; 
+    font-size:20px
+}
+.button-right{
+    right:37%;
+    font-size:20px
+}
+.image-button{
+    border:none;
+    display:inline-block;
+    padding:10px;
+    height:50px;
+    vertical-align:middle;
+    overflow:hidden; 
+    color:#fff;
+    background:#000;
+    position:absolute;
+    top:calc(50% - 25px); 
+    opacity:0.5;
+}
+.image-button:hover{
+    color:#000;
+    background:#ccc;
+}
+.mySlides {
+    display:none; 
+    width:100%;
+}
+/* ---Css Chấm tròn---
+.badge {
+    text-align:center; 
+    margin-bottom:16px; 
+    font-size:20px;
+    position:absolute;
+    bottom:0;
+}
+.badge-white{
+    color:#000!important;
+    background-color:#fff!important
+}
+.image-badge {
+    display:inline-block;
+    border-radius:50%;
+    height:14px;
+    width:14px; 
+    border:1px solid #ccc;
+}
+.image-badge:hover{
+    background:#fff;
+} */
+
+
+/* admin */
+
+.headeradmin {
+    background-color: #EEE;
+    border: 1px #CCC solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+.headeradmin h1{
+    font-size: 2vw;
+}
+.frmtitle {
+    background-color: #EEE;
+    border: 1px #CCC solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+.frmcontent {
+    padding: 20px 0px;
+}
+.frmdsloai table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.frmdsloai table th:nth-child(1) {
+    width: 10%;
+    padding: 20px;
+    background-color: #CCC;
+}
+.frmdsloai table th:nth-child(2) {
+    width: 30%;
+    background-color: #CCC;
+}
+.frmdsloai table th:nth-child(3) {
+    width: 40%;
+    background-color: #CCC;
+}
+.frmdsloai table th:nth-child(4) {
+    width: 20%;
+    background-color: #CCC;
+}
+.frmtsloai table td{
+    padding: 10px 20px;
+    border: 1px #CCC solid;
+} 
+
+/* footer */
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: rgb(28, 202, 176);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/*Thiết Lập Cho Thành Phần Nội Dung Giới Thiệu*/
+footer .container .noi-dung{
+    margin-right: 30px;
+}
+footer  .container .noi-dung.about{
+    width:40%;
+}
+footer .container .noi-dung.about h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer .container .noi-dung.about h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+footer .container .noi-dung.about p{
+    color: rgb(11, 10, 10);
+}
+/*Thiết Lập Cho Thành Phần Icon Mạng Xã Hội*/
+.social-icon{
+    margin-top: 20px;
+    display: flex;
+}
+.social-icon li {
+    list-style: none;
+}
+.social-icon li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.social-icon li a:hover{
+    background: rgb(23, 15, 15);
+}
+.social-icon li a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+.links h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.links h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.links h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.links{
+   position: relative;
+   width: 25%;
+}
+.links ul li{
+    list-style: none;
+}
+.links ul li a{
+    color: rgb(12, 5, 5);
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.links ul li a:hover{
+    color: #fff;
+}
+.contact h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.contact h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.contact{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+.contact .info{
+    position: relative;
+}
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contact .info li span{
+    color: rgb(22, 13, 13);
+}
+.contact .info li a{
+    color: rgb(22, 11, 11);
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin-top:16px;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+.btn--primary {
+    background: #222;
+    color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    padding: 8px 24px;
+}
+.btn--primary:hover {
+    background: #f00;
+}
+.btn--primary:active {
+    background: #f00;
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+}
+.form__field {
+    width: 90%;
+    background: #fff;
+    color: #a3a3a3;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+    border: 0;
+    outline: 0;
+    padding: 8px 4px;
+}
+.tuyendung-info{
+	margin: 10px;
+    background-color: #fff;
+    color: #000;
+}
+.tieude{
+	color: purple;
+	text-align: center;
+	font-size: 30px;
+}
+.tuyendung-noidung{
+	margin:15px 0 20px 30px;
+}

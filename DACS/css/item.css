@@ -1,0 +1,64 @@
+img {
+    
+    height: 400px;
+    
+}
+
+.wide {
+    max-width: 1200px;
+    margin: 8px auto;
+}
+
+.boxcenter {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+.mb{
+    margin-bottom:20px;
+}
+.mb10{
+    margin-bottom:10px ;
+}
+.mr{
+    margin-right:2%;
+}
+
+.header{
+    background-color:rgb(123, 255, 229);
+    border: 1px #090 solid;
+    color: rgb(97, 97, 146);
+    border-radius: 5px;
+}
+
+.header h1{
+    margin: 20px;
+    font-size: 3vw;
+    text-align: center;
+}
+.header__items h1{
+    font-size: 24px;
+}
+
+.header__desc{
+    font-size: 18px ;
+   
+}
+.item__cha {
+    display: flex;
+}
+
+.item__cha p {
+    margin: 14px;
+    
+}
+.khoithongtin .soluong label {
+    width: 101px;
+    font-size: 14px;
+    margin-top: 9px;
+}
+
